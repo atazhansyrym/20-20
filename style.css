@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.hero{
+    background-color: #12372A;
+    color: #FBFADA;
+    height: 100vh;
+    display: flex;
+    font-family: "Dancing Script", cursive;
+}
+.korobka{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    margin: 0 15px;
+    padding: 0 100px;
+    width: 50%;
+}
+h1{
+    line-height: 120px;
+    margin: 50px 0;
+    font-size: 9rem;
+}
+h2{
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 400;
+}
+h3{
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 400;
+}
+
+.photo{
+    width: 70%;
+    border: 20px solid white;
+    rotate: 5deg;
+    box-shadow: 20px 20px 20px 0 black;
+}
+.prizrak{
+    z-index: 5;
+    top: 500px;
+    right:300px;
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   background-color: white;
+    box-shadow: 0 0 300px 100px white;
+}
